@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container image-carousel" values="">
+        <div style = "display: flex; flex-direction: column; justify-content: center;">
+            <div id="subdiv" style = "display: flex; justify-content: center;">
+                <img id='+ object.id +' name='+ object.name +' src='+ object.url +' style="width: 70vw; height: 40vw;" />
+            </div>
+            <div class="arrows" style="display: flex; align-items: center; justify-content: center; position: absolute;top: 45%;gap: 60%;width: 100%;"  >
+                <button class="left" style="width: 1rem;height: 5rem;display: flex;justify-content: center;align-items: center;opacity: 0.5;font-size: medium;font-weight: bolder; color: grey;"> < </button><button class="right" style="width: 1rem;height: 5rem;display: flex;justify-content: center;align-items: center;opacity: 0.5;font-size: medium;font-weight: bolder; color: grey;"> > </button>
+            </div>
+            <div class="slide_dots" style="display: flex; gap: 0.5rem; align-items: center; justify-content: center; margin-top: 0.5rem;"></div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
+
